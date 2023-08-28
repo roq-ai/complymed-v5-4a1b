@@ -1,0 +1,2222 @@
+[
+  {
+    "organization": [
+      {
+        "id": "cd5190e4-d2ee-40f1-a858-1991b074f7a0",
+        "name": "ABC Foundation",
+        "address": "123 Main Street",
+        "created_at": "2023-08-27T20:10:59.878Z",
+        "updated_at": "2023-08-28T16:32:31.805Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "68a9ab85-b63a-436e-b5da-f8810bef7054",
+        "name": "XYZ Charity",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-28T02:51:29.503Z",
+        "updated_at": "2023-08-28T01:27:12.349Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "a24944f3-0f5e-4f69-ac90-e7f17b84c8d3",
+        "name": "123 Nonprofit",
+        "address": "789 Oak Drive",
+        "created_at": "2023-08-27T19:57:05.876Z",
+        "updated_at": "2023-08-28T02:00:32.759Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "d96d84be-0162-4b39-b58f-93f694a3a20e",
+        "name": "Community Center",
+        "address": "10 Pine Lane",
+        "created_at": "2023-08-28T02:13:51.694Z",
+        "updated_at": "2023-08-28T11:59:03.268Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "a7f9eba8-2211-4814-a741-2272f2362abc",
+        "name": "Education Institute",
+        "address": "555 Maple Road",
+        "created_at": "2023-08-27T20:53:52.142Z",
+        "updated_at": "2023-08-28T17:30:39.743Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "1fee80f2-d94c-4705-9ab5-fd8eb72feef2",
+        "name": "Pizza Hut",
+        "location": "New York City",
+        "created_at": "2023-08-28T07:22:41.866Z",
+        "updated_at": "2023-08-28T15:53:37.293Z",
+        "organization_id": "d96d84be-0162-4b39-b58f-93f694a3a20e"
+      },
+      {
+        "id": "0536e807-b743-42bd-9da9-3175545a6cf0",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T09:30:09.500Z",
+        "updated_at": "2023-08-28T13:16:02.236Z",
+        "organization_id": "cd5190e4-d2ee-40f1-a858-1991b074f7a0"
+      },
+      {
+        "id": "c7476914-6f77-43ce-9815-bfd970db7fbe",
+        "name": "Starbucks",
+        "location": "Chicago",
+        "created_at": "2023-08-28T00:26:20.433Z",
+        "updated_at": "2023-08-28T07:39:18.076Z",
+        "organization_id": "a7f9eba8-2211-4814-a741-2272f2362abc"
+      },
+      {
+        "id": "7ee6a0ed-5ed7-497d-9146-bbfd0f473df4",
+        "name": "Subway",
+        "location": "Houston",
+        "created_at": "2023-08-28T14:02:18.854Z",
+        "updated_at": "2023-08-28T07:34:44.835Z",
+        "organization_id": "d96d84be-0162-4b39-b58f-93f694a3a20e"
+      },
+      {
+        "id": "20bac43f-ac01-4ea6-8fee-4f7cadee6132",
+        "name": "Burger King",
+        "location": "Miami",
+        "created_at": "2023-08-27T22:23:11.214Z",
+        "updated_at": "2023-08-28T06:38:06.692Z",
+        "organization_id": "d96d84be-0162-4b39-b58f-93f694a3a20e"
+      }
+    ],
+    "task": [
+      {
+        "id": "e82d2571-61ff-4814-8baf-273618a08301",
+        "title": "Update Website Design",
+        "description": "Implement new color scheme and layout",
+        "status": "In Progress",
+        "created_at": "2023-08-28T02:44:33.865Z",
+        "updated_at": "2023-08-28T04:33:18.427Z",
+        "franchise_id": "1fee80f2-d94c-4705-9ab5-fd8eb72feef2"
+      },
+      {
+        "id": "4c765ccb-4b8a-4ef0-93f1-26267447452b",
+        "title": "Create Marketing Campaign",
+        "description": "Develop social media strategy",
+        "status": "Completed",
+        "created_at": "2023-08-27T23:25:20.535Z",
+        "updated_at": "2023-08-28T07:36:23.098Z",
+        "franchise_id": "7ee6a0ed-5ed7-497d-9146-bbfd0f473df4"
+      },
+      {
+        "id": "d34961f4-3089-4d18-893f-9927c2bc873d",
+        "title": "Fix Bug in Software",
+        "description": "Investigate and resolve issue with login feature",
+        "status": "On Hold",
+        "created_at": "2023-08-27T23:44:31.548Z",
+        "updated_at": "2023-08-28T07:59:39.133Z",
+        "franchise_id": "c7476914-6f77-43ce-9815-bfd970db7fbe"
+      },
+      {
+        "id": "4127e002-d34c-441c-b4ba-203df8b9340e",
+        "title": "Prepare Financial Report",
+        "description": "Compile data and generate financial statements",
+        "status": "Pending",
+        "created_at": "2023-08-28T16:03:06.231Z",
+        "updated_at": "2023-08-28T12:40:39.414Z",
+        "franchise_id": "c7476914-6f77-43ce-9815-bfd970db7fbe"
+      },
+      {
+        "id": "3e8caff9-f6d4-4c44-9a62-391c67d70993",
+        "title": "Organize Team Meeting",
+        "description": "Schedule and plan agenda for team gathering",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T16:36:14.455Z",
+        "updated_at": "2023-08-28T16:56:48.528Z",
+        "franchise_id": "c7476914-6f77-43ce-9815-bfd970db7fbe"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "bc9b9806-7852-47b2-b3cd-fb6e3aa11a52",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T09:34:38.882Z",
+        "updated_at": "2023-08-28T02:00:22.015Z",
+        "franchise_id": "0536e807-b743-42bd-9da9-3175545a6cf0",
+        "organization_id": "a7f9eba8-2211-4814-a741-2272f2362abc"
+      },
+      {
+        "id": "d236ea97-f272-4c3c-b703-16b01926f875",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T07:29:39.153Z",
+        "updated_at": "2023-08-27T22:51:34.457Z",
+        "franchise_id": "20bac43f-ac01-4ea6-8fee-4f7cadee6132",
+        "organization_id": "a7f9eba8-2211-4814-a741-2272f2362abc"
+      },
+      {
+        "id": "b332c787-c7d1-4164-9488-0c16a8937fd7",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-28T06:02:36.597Z",
+        "updated_at": "2023-08-27T22:33:25.524Z",
+        "franchise_id": "0536e807-b743-42bd-9da9-3175545a6cf0",
+        "organization_id": "68a9ab85-b63a-436e-b5da-f8810bef7054"
+      },
+      {
+        "id": "02678f15-48a5-4966-98e1-a73a91077577",
+        "name": "Project Management Dashboard",
+        "created_at": "2023-08-28T05:33:12.952Z",
+        "updated_at": "2023-08-28T15:44:54.756Z",
+        "franchise_id": "7ee6a0ed-5ed7-497d-9146-bbfd0f473df4",
+        "organization_id": "cd5190e4-d2ee-40f1-a858-1991b074f7a0"
+      },
+      {
+        "id": "6dcad540-ae33-4dcc-996a-98725045e3e0",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T00:29:47.184Z",
+        "updated_at": "2023-08-28T02:58:13.662Z",
+        "franchise_id": "c7476914-6f77-43ce-9815-bfd970db7fbe",
+        "organization_id": "d96d84be-0162-4b39-b58f-93f694a3a20e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eabdced5-24f5-4ef4-8b71-a727aaf2eda0",
+        "email": "Willy20@hotmail.com",
+        "firstName": "Lafayette",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62325265",
+        "tenantId": null
+      },
+      {
+        "reference": "f356ccab-b56a-45c9-8851-d5eb3a31bde0",
+        "email": "Hector92@yahoo.com",
+        "firstName": "Fermin",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/288.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52c744a9-e70c-4741-b7bf-ac67489c10ca",
+        "email": "Tate.OConnell11@gmail.com",
+        "firstName": "Daisy",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/653.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b0d1e403-8004-432f-9212-7f75c66a5480",
+        "email": "Christine81@yahoo.com",
+        "firstName": "Antwan",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/866.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c36e0a24-c498-41ee-8549-b727afb49049",
+        "email": "Eryn.Brakus9@hotmail.com",
+        "firstName": "Lucio",
+        "lastName": "Hilpert-Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/926.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "7576b589-c709-442a-a9f8-8fc2600aa142",
+        "name": "Organization 1",
+        "address": "123 Main Street",
+        "created_at": "2023-08-28T09:00:08.740Z",
+        "updated_at": "2023-08-28T05:02:10.965Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "bed7e5e4-2a35-4efa-9615-785d2a652fee",
+        "name": "Organization 2",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-27T21:13:32.203Z",
+        "updated_at": "2023-08-28T10:01:51.543Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "fce664bf-4813-4804-8478-3e16e75bb0ba",
+        "name": "Organization 3",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-27T19:52:07.567Z",
+        "updated_at": "2023-08-28T11:18:18.540Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "76d63047-6ff6-4f70-83ba-08eab9aaa118",
+        "name": "Organization 4",
+        "address": "10 Maple Drive",
+        "created_at": "2023-08-28T11:06:45.600Z",
+        "updated_at": "2023-08-28T02:38:36.122Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "c98e938c-d067-4ee9-86ea-e0e647cdb83c",
+        "name": "Organization 5",
+        "address": "11 Pine Road",
+        "created_at": "2023-08-27T23:40:31.695Z",
+        "updated_at": "2023-08-27T18:02:25.242Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "fad83a3a-751e-4ba2-9f53-daebbaba295e",
+        "name": "Franchise 1",
+        "location": "City A",
+        "created_at": "2023-08-28T02:55:50.625Z",
+        "updated_at": "2023-08-28T08:03:34.080Z",
+        "organization_id": "c98e938c-d067-4ee9-86ea-e0e647cdb83c"
+      },
+      {
+        "id": "b573571f-6e9e-4a24-8ff0-cd0b7f0f4c7a",
+        "name": "Franchise 2",
+        "location": "City B",
+        "created_at": "2023-08-28T14:10:31.252Z",
+        "updated_at": "2023-08-28T16:22:48.659Z",
+        "organization_id": "bed7e5e4-2a35-4efa-9615-785d2a652fee"
+      },
+      {
+        "id": "1bcf1da6-3e70-44cd-90ca-bd1bc9f916e2",
+        "name": "Franchise 3",
+        "location": "City C",
+        "created_at": "2023-08-28T13:49:38.412Z",
+        "updated_at": "2023-08-28T10:28:54.456Z",
+        "organization_id": "76d63047-6ff6-4f70-83ba-08eab9aaa118"
+      },
+      {
+        "id": "9d3411b3-7bce-451f-bb90-fefe8bcadbd8",
+        "name": "Franchise 4",
+        "location": "City D",
+        "created_at": "2023-08-28T11:59:14.049Z",
+        "updated_at": "2023-08-28T05:35:27.819Z",
+        "organization_id": "7576b589-c709-442a-a9f8-8fc2600aa142"
+      },
+      {
+        "id": "790f9a65-043f-49d1-8887-1eba4063c0d2",
+        "name": "Franchise 5",
+        "location": "City E",
+        "created_at": "2023-08-28T09:36:00.228Z",
+        "updated_at": "2023-08-28T17:14:01.459Z",
+        "organization_id": "bed7e5e4-2a35-4efa-9615-785d2a652fee"
+      }
+    ],
+    "task": [
+      {
+        "id": "8a67139b-3b99-4deb-9908-7e87ba7cca06",
+        "title": "Task 1",
+        "description": "Complete project report",
+        "status": "Pending",
+        "created_at": "2023-08-28T13:37:01.635Z",
+        "updated_at": "2023-08-28T04:24:14.809Z",
+        "franchise_id": "1bcf1da6-3e70-44cd-90ca-bd1bc9f916e2"
+      },
+      {
+        "id": "bbcb11bb-385d-4e4a-9b9f-79c1021788da",
+        "title": "Task 2",
+        "description": "Review marketing strategy",
+        "status": "In Progress",
+        "created_at": "2023-08-28T15:08:22.560Z",
+        "updated_at": "2023-08-27T22:53:36.522Z",
+        "franchise_id": "1bcf1da6-3e70-44cd-90ca-bd1bc9f916e2"
+      },
+      {
+        "id": "13b16a87-51d8-4980-9e9a-89003616aa38",
+        "title": "Task 3",
+        "description": "Prepare presentation slides",
+        "status": "Completed",
+        "created_at": "2023-08-27T23:21:46.516Z",
+        "updated_at": "2023-08-28T10:25:13.842Z",
+        "franchise_id": "790f9a65-043f-49d1-8887-1eba4063c0d2"
+      },
+      {
+        "id": "ceebdaea-5fd2-4454-908f-884b963c6677",
+        "title": "Task 4",
+        "description": "Conduct market research",
+        "status": "On Hold",
+        "created_at": "2023-08-28T08:57:21.888Z",
+        "updated_at": "2023-08-28T13:35:46.748Z",
+        "franchise_id": "790f9a65-043f-49d1-8887-1eba4063c0d2"
+      },
+      {
+        "id": "d52cc228-8cde-4156-8cfc-6cdc870f2079",
+        "title": "Task 5",
+        "description": "Update website content",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T10:25:42.809Z",
+        "updated_at": "2023-08-27T22:19:22.901Z",
+        "franchise_id": "1bcf1da6-3e70-44cd-90ca-bd1bc9f916e2"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "e2978d98-08d5-4a2a-ae8a-feae5f0190f6",
+        "name": "Dashboard 1",
+        "created_at": "2023-08-27T21:15:38.853Z",
+        "updated_at": "2023-08-28T05:05:56.015Z",
+        "franchise_id": "fad83a3a-751e-4ba2-9f53-daebbaba295e",
+        "organization_id": "fce664bf-4813-4804-8478-3e16e75bb0ba"
+      },
+      {
+        "id": "bf848d29-f7e4-4879-8622-879b561dd5f8",
+        "name": "Dashboard 2",
+        "created_at": "2023-08-28T11:43:28.653Z",
+        "updated_at": "2023-08-28T12:46:27.893Z",
+        "franchise_id": "790f9a65-043f-49d1-8887-1eba4063c0d2",
+        "organization_id": "76d63047-6ff6-4f70-83ba-08eab9aaa118"
+      },
+      {
+        "id": "25c7d928-1b4a-4d98-a3af-65f208fe4c50",
+        "name": "Dashboard 3",
+        "created_at": "2023-08-28T00:31:09.992Z",
+        "updated_at": "2023-08-28T01:56:39.331Z",
+        "franchise_id": "fad83a3a-751e-4ba2-9f53-daebbaba295e",
+        "organization_id": "bed7e5e4-2a35-4efa-9615-785d2a652fee"
+      },
+      {
+        "id": "ddbcca7e-0f3b-4029-8285-cc00e89302f0",
+        "name": "Dashboard 4",
+        "created_at": "2023-08-28T13:44:32.116Z",
+        "updated_at": "2023-08-28T16:53:28.444Z",
+        "franchise_id": "fad83a3a-751e-4ba2-9f53-daebbaba295e",
+        "organization_id": "bed7e5e4-2a35-4efa-9615-785d2a652fee"
+      },
+      {
+        "id": "11fe36c4-82bd-4d50-8e31-2d3404b90d64",
+        "name": "Dashboard 5",
+        "created_at": "2023-08-28T13:44:40.328Z",
+        "updated_at": "2023-08-28T08:52:27.678Z",
+        "franchise_id": "790f9a65-043f-49d1-8887-1eba4063c0d2",
+        "organization_id": "bed7e5e4-2a35-4efa-9615-785d2a652fee"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "51b88f69-550c-4ed2-8b86-a4cd4902da04",
+        "email": "Howard1@yahoo.com",
+        "firstName": "Arlie",
+        "lastName": "Franecki-Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb68e379-3214-4dcc-ab80-25071b942eec",
+        "email": "Janie.Quitzon@hotmail.com",
+        "firstName": "Gustave",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31d44c4b-f3d8-4e9e-a505-a3dcba0d6a1f",
+        "email": "Ciara24@gmail.com",
+        "firstName": "Elinore",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46473868",
+        "tenantId": null
+      },
+      {
+        "reference": "3bff2e54-e1b5-4edb-94b1-556a5f91da0e",
+        "email": "Alden.Goodwin@yahoo.com",
+        "firstName": "Raegan",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96836475",
+        "tenantId": null
+      },
+      {
+        "reference": "c5f15074-b1c9-4175-8c96-f234b3ea5db8",
+        "email": "Darby_Haley23@hotmail.com",
+        "firstName": "Abigail",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/434.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "2a5b4188-10b3-4d18-9df2-97695c086da7",
+        "name": "ABC Inc",
+        "address": "123 Main St",
+        "created_at": "2023-08-28T07:55:41.143Z",
+        "updated_at": "2023-08-28T17:01:26.906Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "348b6d5d-1d58-4f38-9138-946ae7baa516",
+        "name": "XYZ Ltd",
+        "address": "456 Elm St",
+        "created_at": "2023-08-28T04:23:15.897Z",
+        "updated_at": "2023-08-27T20:33:30.435Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "c2fd7e8e-a4cc-46b7-99c5-bfdb6ab703da",
+        "name": "123 Corp",
+        "address": "789 Oak Ave",
+        "created_at": "2023-08-28T08:35:19.033Z",
+        "updated_at": "2023-08-27T21:55:58.056Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "786dc614-b456-4b05-80ee-0bea115632c1",
+        "name": "Acme Group",
+        "address": "321 Pine Rd",
+        "created_at": "2023-08-27T22:47:34.870Z",
+        "updated_at": "2023-08-28T03:47:41.829Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "712849cc-284d-4e63-a7f2-831bda90dbda",
+        "name": "Global Organization",
+        "address": "987 Maple Blvd",
+        "created_at": "2023-08-28T12:32:22.970Z",
+        "updated_at": "2023-08-28T15:17:17.085Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "f1d0d685-ab5f-481f-b8e6-f70095515bfe",
+        "name": "Subway",
+        "location": "New York",
+        "created_at": "2023-08-27T21:06:08.430Z",
+        "updated_at": "2023-08-28T11:37:09.988Z",
+        "organization_id": "c2fd7e8e-a4cc-46b7-99c5-bfdb6ab703da"
+      },
+      {
+        "id": "66dfc662-780c-4ca5-b30f-ad79b0ab376b",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T02:05:40.261Z",
+        "updated_at": "2023-08-28T14:52:36.803Z",
+        "organization_id": "786dc614-b456-4b05-80ee-0bea115632c1"
+      },
+      {
+        "id": "4a905aae-705b-45cb-b51b-89632eb9527a",
+        "name": "Starbucks",
+        "location": "Chicago",
+        "created_at": "2023-08-28T06:08:42.824Z",
+        "updated_at": "2023-08-28T12:43:39.118Z",
+        "organization_id": "786dc614-b456-4b05-80ee-0bea115632c1"
+      },
+      {
+        "id": "0206a1a4-5d3f-4c63-a12f-710f806dcfd8",
+        "name": "KFC",
+        "location": "Houston",
+        "created_at": "2023-08-27T20:16:10.485Z",
+        "updated_at": "2023-08-28T08:10:01.284Z",
+        "organization_id": "712849cc-284d-4e63-a7f2-831bda90dbda"
+      },
+      {
+        "id": "f15f61cd-7b3f-40bd-8449-41fd956fee02",
+        "name": "Burger King",
+        "location": "Miami",
+        "created_at": "2023-08-28T16:54:25.003Z",
+        "updated_at": "2023-08-28T13:58:53.710Z",
+        "organization_id": "786dc614-b456-4b05-80ee-0bea115632c1"
+      }
+    ],
+    "task": [
+      {
+        "id": "f64d6891-6bb2-4cb7-adad-40f9fe44a76c",
+        "title": "Update website",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-28T10:57:58.222Z",
+        "updated_at": "2023-08-28T17:30:26.567Z",
+        "franchise_id": "f1d0d685-ab5f-481f-b8e6-f70095515bfe"
+      },
+      {
+        "id": "39aa7a88-8bc3-4840-b7ff-0c8d8c69af03",
+        "title": "Prepare report",
+        "description": "Consectetur adipiscing elit",
+        "status": "In progress",
+        "created_at": "2023-08-27T19:21:41.119Z",
+        "updated_at": "2023-08-28T06:09:13.591Z",
+        "franchise_id": "66dfc662-780c-4ca5-b30f-ad79b0ab376b"
+      },
+      {
+        "id": "d583b805-985d-44d9-b625-ebf717223990",
+        "title": "Schedule meeting",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-28T13:50:50.375Z",
+        "updated_at": "2023-08-28T00:52:58.139Z",
+        "franchise_id": "f15f61cd-7b3f-40bd-8449-41fd956fee02"
+      },
+      {
+        "id": "d852cc16-6065-48d6-a1d5-96a4c635eaeb",
+        "title": "Review documents",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On hold",
+        "created_at": "2023-08-27T18:56:42.969Z",
+        "updated_at": "2023-08-27T19:57:50.924Z",
+        "franchise_id": "f1d0d685-ab5f-481f-b8e6-f70095515bfe"
+      },
+      {
+        "id": "1a5ea284-65f4-451c-80b0-428ead1d53cf",
+        "title": "Finalize budget",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T02:04:41.173Z",
+        "updated_at": "2023-08-28T04:21:54.050Z",
+        "franchise_id": "66dfc662-780c-4ca5-b30f-ad79b0ab376b"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "3852f5b2-e065-49b0-a9c3-d84a8d0b930d",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T11:49:54.143Z",
+        "updated_at": "2023-08-28T03:56:09.980Z",
+        "franchise_id": "f15f61cd-7b3f-40bd-8449-41fd956fee02",
+        "organization_id": "786dc614-b456-4b05-80ee-0bea115632c1"
+      },
+      {
+        "id": "ca8851e7-85f8-4c15-a2d0-e27f2e6dfaca",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T00:04:28.468Z",
+        "updated_at": "2023-08-28T01:20:02.479Z",
+        "franchise_id": "f1d0d685-ab5f-481f-b8e6-f70095515bfe",
+        "organization_id": "786dc614-b456-4b05-80ee-0bea115632c1"
+      },
+      {
+        "id": "c057a3b4-d010-4e0b-9bd3-997fc291246f",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-28T05:25:45.421Z",
+        "updated_at": "2023-08-28T02:43:47.707Z",
+        "franchise_id": "66dfc662-780c-4ca5-b30f-ad79b0ab376b",
+        "organization_id": "c2fd7e8e-a4cc-46b7-99c5-bfdb6ab703da"
+      },
+      {
+        "id": "b71b12ca-a2ea-446f-b0a8-8c159ab0020c",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T13:33:06.101Z",
+        "updated_at": "2023-08-28T05:42:40.238Z",
+        "franchise_id": "f1d0d685-ab5f-481f-b8e6-f70095515bfe",
+        "organization_id": "786dc614-b456-4b05-80ee-0bea115632c1"
+      },
+      {
+        "id": "e04a4bba-e5fc-4011-873b-032bcd78c3c3",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-28T04:22:54.393Z",
+        "updated_at": "2023-08-28T00:31:42.239Z",
+        "franchise_id": "f15f61cd-7b3f-40bd-8449-41fd956fee02",
+        "organization_id": "712849cc-284d-4e63-a7f2-831bda90dbda"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "34f8f1c4-6f3c-4372-8f0a-32d286ce4e5c",
+        "email": "Audreanne_Effertz13@gmail.com",
+        "firstName": "Lelia",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11219989",
+        "tenantId": null
+      },
+      {
+        "reference": "efd61413-013b-4332-9c41-641356d981e2",
+        "email": "Johanna92@hotmail.com",
+        "firstName": "Izaiah",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51044387",
+        "tenantId": null
+      },
+      {
+        "reference": "f2a3817a-d879-476c-9771-f91e01668ef5",
+        "email": "Kris.Kautzer15@hotmail.com",
+        "firstName": "Gerard",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "829accf0-1432-42ca-ab11-a16dc190f1df",
+        "email": "Dante45@hotmail.com",
+        "firstName": "Breanna",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/860.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9c7a23a-83f2-4f2c-ad52-30978e6ba40d",
+        "email": "Garland.Huels@hotmail.com",
+        "firstName": "Ruthie",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1184.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "a484b8e0-d20d-41e3-9b6a-c0bfaf2f94ec",
+        "name": "Organization 1",
+        "address": "123 Main St",
+        "created_at": "2023-08-27T21:38:15.564Z",
+        "updated_at": "2023-08-28T17:02:19.060Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "48fcf285-4ea1-4e4b-ab0d-1fef648be50d",
+        "name": "Organization 2",
+        "address": "456 Elm St",
+        "created_at": "2023-08-28T17:06:10.021Z",
+        "updated_at": "2023-08-27T18:55:41.515Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "96cb90a1-a767-4e50-acec-abb3eb20d307",
+        "name": "Organization 3",
+        "address": "789 Oak St",
+        "created_at": "2023-08-28T05:23:12.072Z",
+        "updated_at": "2023-08-28T04:32:01.397Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "476dca5a-7601-41d1-b468-cdbe569a7fcf",
+        "name": "Organization 4",
+        "address": "10 Pine St",
+        "created_at": "2023-08-28T14:28:18.255Z",
+        "updated_at": "2023-08-28T11:38:52.536Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "50bc0efc-d2dc-4ef9-8b6f-e8dbf101d96a",
+        "name": "Organization 5",
+        "address": "11 Maple St",
+        "created_at": "2023-08-28T15:42:03.029Z",
+        "updated_at": "2023-08-27T22:16:26.864Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "2b7a1c05-b3a8-4b89-ac47-7b333a1144a8",
+        "name": "Franchise 1",
+        "location": "City A",
+        "created_at": "2023-08-28T04:11:28.111Z",
+        "updated_at": "2023-08-28T02:17:57.948Z",
+        "organization_id": "96cb90a1-a767-4e50-acec-abb3eb20d307"
+      },
+      {
+        "id": "4cc98200-59db-4d6c-81fb-f2dc91747a48",
+        "name": "Franchise 2",
+        "location": "City B",
+        "created_at": "2023-08-28T14:11:22.619Z",
+        "updated_at": "2023-08-27T21:58:06.652Z",
+        "organization_id": "a484b8e0-d20d-41e3-9b6a-c0bfaf2f94ec"
+      },
+      {
+        "id": "884edd73-83b2-4cc8-b947-439ea8a9924f",
+        "name": "Franchise 3",
+        "location": "City C",
+        "created_at": "2023-08-28T05:35:20.825Z",
+        "updated_at": "2023-08-28T04:55:02.265Z",
+        "organization_id": "48fcf285-4ea1-4e4b-ab0d-1fef648be50d"
+      },
+      {
+        "id": "6a43384c-99af-48b3-8d89-f7b823ee86b7",
+        "name": "Franchise 4",
+        "location": "City D",
+        "created_at": "2023-08-28T06:45:30.904Z",
+        "updated_at": "2023-08-28T16:07:01.823Z",
+        "organization_id": "96cb90a1-a767-4e50-acec-abb3eb20d307"
+      },
+      {
+        "id": "b603c637-5c4f-4d0d-8c2b-8e461735b99e",
+        "name": "Franchise 5",
+        "location": "City E",
+        "created_at": "2023-08-28T13:22:35.557Z",
+        "updated_at": "2023-08-27T17:53:59.367Z",
+        "organization_id": "476dca5a-7601-41d1-b468-cdbe569a7fcf"
+      }
+    ],
+    "task": [
+      {
+        "id": "1f5508df-296b-45c7-bc45-06025704f6c5",
+        "title": "Task 1",
+        "description": "Complete project report",
+        "status": "Pending",
+        "created_at": "2023-08-28T13:24:28.191Z",
+        "updated_at": "2023-08-28T02:47:31.777Z",
+        "franchise_id": "4cc98200-59db-4d6c-81fb-f2dc91747a48"
+      },
+      {
+        "id": "659de303-cb6a-41a1-a587-b357e3234396",
+        "title": "Task 2",
+        "description": "Review marketing strategy",
+        "status": "In Progress",
+        "created_at": "2023-08-28T08:24:20.377Z",
+        "updated_at": "2023-08-27T19:49:44.376Z",
+        "franchise_id": "884edd73-83b2-4cc8-b947-439ea8a9924f"
+      },
+      {
+        "id": "ca3ad015-9eb7-46ce-88ed-67e3c65f4e7b",
+        "title": "Task 3",
+        "description": "Prepare presentation slides",
+        "status": "Completed",
+        "created_at": "2023-08-28T10:43:35.274Z",
+        "updated_at": "2023-08-28T01:43:21.279Z",
+        "franchise_id": "4cc98200-59db-4d6c-81fb-f2dc91747a48"
+      },
+      {
+        "id": "f25f29d9-5513-4793-938a-14222abec545",
+        "title": "Task 4",
+        "description": "Update website content",
+        "status": "On Hold",
+        "created_at": "2023-08-28T16:23:12.893Z",
+        "updated_at": "2023-08-27T19:36:10.935Z",
+        "franchise_id": "884edd73-83b2-4cc8-b947-439ea8a9924f"
+      },
+      {
+        "id": "4ababe3a-467e-48ed-824a-8cd9ef8cadd4",
+        "title": "Task 5",
+        "description": "Finalize budget plan",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T12:15:19.941Z",
+        "updated_at": "2023-08-28T16:38:58.198Z",
+        "franchise_id": "4cc98200-59db-4d6c-81fb-f2dc91747a48"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "2c5aea58-f2f1-40a5-876c-d684b6639b06",
+        "name": "Dashboard A",
+        "created_at": "2023-08-28T06:43:25.928Z",
+        "updated_at": "2023-08-28T12:31:11.695Z",
+        "franchise_id": "884edd73-83b2-4cc8-b947-439ea8a9924f",
+        "organization_id": "50bc0efc-d2dc-4ef9-8b6f-e8dbf101d96a"
+      },
+      {
+        "id": "61821365-713f-44d3-9594-8a8c7f6c0507",
+        "name": "Dashboard B",
+        "created_at": "2023-08-28T11:10:20.993Z",
+        "updated_at": "2023-08-28T06:27:32.846Z",
+        "franchise_id": "4cc98200-59db-4d6c-81fb-f2dc91747a48",
+        "organization_id": "96cb90a1-a767-4e50-acec-abb3eb20d307"
+      },
+      {
+        "id": "299f31a3-4652-4d22-92a4-9198b152fc62",
+        "name": "Dashboard C",
+        "created_at": "2023-08-28T11:18:12.932Z",
+        "updated_at": "2023-08-28T12:15:26.164Z",
+        "franchise_id": "b603c637-5c4f-4d0d-8c2b-8e461735b99e",
+        "organization_id": "96cb90a1-a767-4e50-acec-abb3eb20d307"
+      },
+      {
+        "id": "469b99be-d846-49a4-8abf-8d3eeb0b19c4",
+        "name": "Dashboard D",
+        "created_at": "2023-08-27T23:23:34.735Z",
+        "updated_at": "2023-08-27T19:28:44.457Z",
+        "franchise_id": "b603c637-5c4f-4d0d-8c2b-8e461735b99e",
+        "organization_id": "a484b8e0-d20d-41e3-9b6a-c0bfaf2f94ec"
+      },
+      {
+        "id": "0f55a51d-bbbf-471e-ae02-20ae6d266573",
+        "name": "Dashboard E",
+        "created_at": "2023-08-28T11:49:43.648Z",
+        "updated_at": "2023-08-28T12:28:45.605Z",
+        "franchise_id": "884edd73-83b2-4cc8-b947-439ea8a9924f",
+        "organization_id": "48fcf285-4ea1-4e4b-ab0d-1fef648be50d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ecd842b6-c8be-42bd-96a2-c4c1acb96a6e",
+        "email": "Sandrine5@hotmail.com",
+        "firstName": "Ulices",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/643.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab95fbac-4484-4eae-b4a4-e57267ce9d5e",
+        "email": "Berneice_Keebler97@gmail.com",
+        "firstName": "Kacey",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54769000",
+        "tenantId": null
+      },
+      {
+        "reference": "e66a53a7-457f-420b-baa3-85d580887683",
+        "email": "Adrain.Heathcote@hotmail.com",
+        "firstName": "Diana",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/707.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d837445-82c3-436d-8286-92f50206aa74",
+        "email": "Elwin_Hessel@yahoo.com",
+        "firstName": "Hollie",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90571358",
+        "tenantId": null
+      },
+      {
+        "reference": "cd1ef204-3832-433a-8325-6790f4cfb738",
+        "email": "Anahi_Hills97@hotmail.com",
+        "firstName": "Onie",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80242409",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "6d8a7b0f-d204-4c36-996c-f2189fced8bb",
+        "name": "ABC Corp",
+        "address": "123 Main St",
+        "created_at": "2023-08-28T11:54:31.439Z",
+        "updated_at": "2023-08-28T05:00:31.984Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "0969b0a9-d89f-4d32-9160-c025b4b02999",
+        "name": "XYZ Inc",
+        "address": "456 Elm St",
+        "created_at": "2023-08-27T23:59:13.879Z",
+        "updated_at": "2023-08-28T14:47:44.290Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "5ec613ab-fecf-451a-8c2e-da1e8e81b5a7",
+        "name": "Global Enterprises",
+        "address": "789 Oak Ave",
+        "created_at": "2023-08-27T23:52:26.024Z",
+        "updated_at": "2023-08-28T08:03:08.310Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "f8b1f1ea-0c0c-4a7b-b3bb-6193369b5103",
+        "name": "Tech Solutions",
+        "address": "321 Maple Rd",
+        "created_at": "2023-08-28T03:50:53.324Z",
+        "updated_at": "2023-08-28T05:06:08.703Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "a64aa69b-e023-4df4-aee5-56fb266dfc73",
+        "name": "Innovative Labs",
+        "address": "654 Pine Blvd",
+        "created_at": "2023-08-27T20:08:42.777Z",
+        "updated_at": "2023-08-27T19:17:50.868Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "6e4f8ebc-10c3-4b2c-b46a-2552d2665b3c",
+        "name": "Subway",
+        "location": "New York",
+        "created_at": "2023-08-28T17:06:33.539Z",
+        "updated_at": "2023-08-28T08:59:02.991Z",
+        "organization_id": "a64aa69b-e023-4df4-aee5-56fb266dfc73"
+      },
+      {
+        "id": "3cf40887-7029-4cfd-8a3b-ed8cc375418b",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T04:00:00.474Z",
+        "updated_at": "2023-08-27T23:30:18.919Z",
+        "organization_id": "a64aa69b-e023-4df4-aee5-56fb266dfc73"
+      },
+      {
+        "id": "4bba80e2-e914-48e9-bc59-d0eb4f10b4ef",
+        "name": "Starbucks",
+        "location": "Chicago",
+        "created_at": "2023-08-28T02:10:42.498Z",
+        "updated_at": "2023-08-28T08:41:36.945Z",
+        "organization_id": "f8b1f1ea-0c0c-4a7b-b3bb-6193369b5103"
+      },
+      {
+        "id": "ab5cdfd6-36f6-40c6-8131-3fc1e162bbb4",
+        "name": "Pizza Hut",
+        "location": "Houston",
+        "created_at": "2023-08-28T01:19:48.724Z",
+        "updated_at": "2023-08-28T02:41:07.481Z",
+        "organization_id": "5ec613ab-fecf-451a-8c2e-da1e8e81b5a7"
+      },
+      {
+        "id": "0da94f75-a168-4723-a03e-d29446e4f819",
+        "name": "KFC",
+        "location": "Miami",
+        "created_at": "2023-08-28T13:24:28.563Z",
+        "updated_at": "2023-08-28T09:14:47.264Z",
+        "organization_id": "6d8a7b0f-d204-4c36-996c-f2189fced8bb"
+      }
+    ],
+    "task": [
+      {
+        "id": "ee433b62-e051-48de-a340-fa3f9bf6af45",
+        "title": "Complete Report",
+        "description": "Review sales data and generate report",
+        "status": "Pending",
+        "created_at": "2023-08-28T06:14:51.499Z",
+        "updated_at": "2023-08-28T06:34:02.079Z",
+        "franchise_id": "6e4f8ebc-10c3-4b2c-b46a-2552d2665b3c"
+      },
+      {
+        "id": "4221cc75-8250-4c4d-9283-cee35e3f3779",
+        "title": "Update Website",
+        "description": "Implement new design for homepage",
+        "status": "In Progress",
+        "created_at": "2023-08-28T04:11:52.692Z",
+        "updated_at": "2023-08-27T18:52:42.217Z",
+        "franchise_id": "6e4f8ebc-10c3-4b2c-b46a-2552d2665b3c"
+      },
+      {
+        "id": "3b31934d-c67f-443a-94a1-11ea61a5df43",
+        "title": "Prepare Presentation",
+        "description": "Create slides for client meeting",
+        "status": "Completed",
+        "created_at": "2023-08-28T14:56:14.068Z",
+        "updated_at": "2023-08-28T16:58:56.568Z",
+        "franchise_id": "6e4f8ebc-10c3-4b2c-b46a-2552d2665b3c"
+      },
+      {
+        "id": "9681b5de-731c-4842-9050-b29e88224faf",
+        "title": "Fix Bug",
+        "description": "Investigate and resolve software issue",
+        "status": "On Hold",
+        "created_at": "2023-08-28T07:07:52.789Z",
+        "updated_at": "2023-08-28T07:21:16.147Z",
+        "franchise_id": "6e4f8ebc-10c3-4b2c-b46a-2552d2665b3c"
+      },
+      {
+        "id": "847e3807-fe5e-48a8-8acd-7f6413780186",
+        "title": "Create New Feature",
+        "description": "Develop functionality based on requirements",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T08:48:45.748Z",
+        "updated_at": "2023-08-28T12:25:25.249Z",
+        "franchise_id": "ab5cdfd6-36f6-40c6-8131-3fc1e162bbb4"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "43f6264a-8c50-4971-a099-a9505d593b2c",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T09:09:52.316Z",
+        "updated_at": "2023-08-28T14:15:27.723Z",
+        "franchise_id": "0da94f75-a168-4723-a03e-d29446e4f819",
+        "organization_id": "5ec613ab-fecf-451a-8c2e-da1e8e81b5a7"
+      },
+      {
+        "id": "a7b60116-f99f-4ba5-ae74-ba3ece2e0d12",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T06:57:31.372Z",
+        "updated_at": "2023-08-27T18:59:18.138Z",
+        "franchise_id": "4bba80e2-e914-48e9-bc59-d0eb4f10b4ef",
+        "organization_id": "5ec613ab-fecf-451a-8c2e-da1e8e81b5a7"
+      },
+      {
+        "id": "dfea3dd4-d775-49c1-a55d-1876fa02c05b",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-28T06:43:18.243Z",
+        "updated_at": "2023-08-28T03:24:28.670Z",
+        "franchise_id": "3cf40887-7029-4cfd-8a3b-ed8cc375418b",
+        "organization_id": "0969b0a9-d89f-4d32-9160-c025b4b02999"
+      },
+      {
+        "id": "0b4e352b-8970-4741-9441-033f0dcaa304",
+        "name": "Project Dashboard",
+        "created_at": "2023-08-28T06:50:37.906Z",
+        "updated_at": "2023-08-28T02:40:31.405Z",
+        "franchise_id": "3cf40887-7029-4cfd-8a3b-ed8cc375418b",
+        "organization_id": "0969b0a9-d89f-4d32-9160-c025b4b02999"
+      },
+      {
+        "id": "c8de7cf4-e82b-482a-a0ca-a613f43f7b68",
+        "name": "Performance Dashboard",
+        "created_at": "2023-08-28T13:21:01.526Z",
+        "updated_at": "2023-08-28T03:21:14.460Z",
+        "franchise_id": "3cf40887-7029-4cfd-8a3b-ed8cc375418b",
+        "organization_id": "6d8a7b0f-d204-4c36-996c-f2189fced8bb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "51721c4e-d0d5-4fa2-99a3-c35ce563549a",
+        "email": "Garnett_Will59@yahoo.com",
+        "firstName": "Jessie",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/93.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae8414c8-1d7f-4e7d-be6b-f2f81432957a",
+        "email": "Peyton38@hotmail.com",
+        "firstName": "Eldridge",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1484119",
+        "tenantId": null
+      },
+      {
+        "reference": "c1e0fce8-47ee-42c7-b50c-6f608f04a208",
+        "email": "Maryjane27@yahoo.com",
+        "firstName": "Geovanny",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/368.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b0fb178-0954-45b7-b17b-8bbf9a729b69",
+        "email": "Lurline.Volkman@gmail.com",
+        "firstName": "Libby",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69058213",
+        "tenantId": null
+      },
+      {
+        "reference": "f756d247-8d3a-459a-b7a1-66a98e8f1227",
+        "email": "Anthony.Daniel30@gmail.com",
+        "firstName": "Baron",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38395736",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "47863ac7-f255-4120-9c94-6f4de948a3d3",
+        "name": "ABC Corporation",
+        "address": "123 Main Street",
+        "created_at": "2023-08-27T23:05:44.070Z",
+        "updated_at": "2023-08-28T05:27:07.560Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "90dc2314-4053-43c6-8840-e7f9eb677a20",
+        "name": "XYZ Corporation",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-28T08:15:21.830Z",
+        "updated_at": "2023-08-27T21:07:51.455Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "bb1f0ffc-69d7-469a-af4b-4460271fd851",
+        "name": "Acme Industries",
+        "address": "789 Oak Drive",
+        "created_at": "2023-08-28T06:29:00.414Z",
+        "updated_at": "2023-08-28T13:41:41.015Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "e017d9be-aac4-4b3f-a0bb-be1576a63e69",
+        "name": "Global Enterprises",
+        "address": "987 Pine Lane",
+        "created_at": "2023-08-28T01:18:17.120Z",
+        "updated_at": "2023-08-27T21:56:25.661Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "9b8b1a09-4169-49d6-87f4-6df73ac7e37c",
+        "name": "Innovative Solutions",
+        "address": "654 Maple Court",
+        "created_at": "2023-08-28T01:02:39.243Z",
+        "updated_at": "2023-08-27T20:11:35.235Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "a557dc97-fb48-46bd-ab0b-d628a5d04518",
+        "name": "Pizza Paradise",
+        "location": "New York",
+        "created_at": "2023-08-28T06:59:20.432Z",
+        "updated_at": "2023-08-28T02:04:01.514Z",
+        "organization_id": "90dc2314-4053-43c6-8840-e7f9eb677a20"
+      },
+      {
+        "id": "44ab7ac7-5d13-4108-819a-064e06095ab9",
+        "name": "Burger Haven",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T08:55:19.799Z",
+        "updated_at": "2023-08-27T18:08:38.106Z",
+        "organization_id": "47863ac7-f255-4120-9c94-6f4de948a3d3"
+      },
+      {
+        "id": "c9b91661-3b06-490b-82ec-43c960f948cf",
+        "name": "Taco Fiesta",
+        "location": "Chicago",
+        "created_at": "2023-08-27T19:46:58.223Z",
+        "updated_at": "2023-08-28T15:24:09.461Z",
+        "organization_id": "47863ac7-f255-4120-9c94-6f4de948a3d3"
+      },
+      {
+        "id": "9dd69dc2-196d-4e74-871d-dff810829e68",
+        "name": "Sushi Delight",
+        "location": "Houston",
+        "created_at": "2023-08-28T04:52:43.030Z",
+        "updated_at": "2023-08-28T07:20:34.416Z",
+        "organization_id": "bb1f0ffc-69d7-469a-af4b-4460271fd851"
+      },
+      {
+        "id": "a9325fbc-ace5-4c7c-b6f5-8f509908157e",
+        "name": "Chicken Coop",
+        "location": "Miami",
+        "created_at": "2023-08-28T16:09:47.575Z",
+        "updated_at": "2023-08-27T19:16:42.322Z",
+        "organization_id": "e017d9be-aac4-4b3f-a0bb-be1576a63e69"
+      }
+    ],
+    "task": [
+      {
+        "id": "e553f54d-c93f-4168-8bc9-ae0191f92ac5",
+        "title": "Complete Project Proposal",
+        "description": "This task involves creating a detailed project proposal.",
+        "status": "Pending",
+        "created_at": "2023-08-28T04:49:35.660Z",
+        "updated_at": "2023-08-27T23:40:38.499Z",
+        "franchise_id": "44ab7ac7-5d13-4108-819a-064e06095ab9"
+      },
+      {
+        "id": "a46e444b-d8cf-405d-a471-73372e2d4e27",
+        "title": "Review Marketing Strategy",
+        "description": "The task requires reviewing and analyzing the current marketing strategy.",
+        "status": "In Progress",
+        "created_at": "2023-08-28T09:15:58.762Z",
+        "updated_at": "2023-08-28T14:23:49.394Z",
+        "franchise_id": "44ab7ac7-5d13-4108-819a-064e06095ab9"
+      },
+      {
+        "id": "63242616-bf98-40d1-b2a5-ee4814939f8a",
+        "title": "Prepare Financial Report",
+        "description": "Prepare a comprehensive financial report for the quarter.",
+        "status": "Completed",
+        "created_at": "2023-08-28T09:35:46.562Z",
+        "updated_at": "2023-08-28T00:08:36.895Z",
+        "franchise_id": "9dd69dc2-196d-4e74-871d-dff810829e68"
+      },
+      {
+        "id": "72de784c-2b2c-43df-b649-3202b7443a0d",
+        "title": "Develop New Feature",
+        "description": "Develop a new feature for the software application.",
+        "status": "On Hold",
+        "created_at": "2023-08-28T08:01:54.392Z",
+        "updated_at": "2023-08-28T00:20:15.831Z",
+        "franchise_id": "44ab7ac7-5d13-4108-819a-064e06095ab9"
+      },
+      {
+        "id": "9f9051c8-3b63-4c28-b811-4daa3308f4ae",
+        "title": "Organize Team Meeting",
+        "description": "Organize a team meeting to discuss project updates.",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T19:52:20.847Z",
+        "updated_at": "2023-08-28T03:28:57.444Z",
+        "franchise_id": "a9325fbc-ace5-4c7c-b6f5-8f509908157e"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "dca6893f-986a-474e-b383-01da1abf8167",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T04:10:42.631Z",
+        "updated_at": "2023-08-27T18:40:51.485Z",
+        "franchise_id": "a557dc97-fb48-46bd-ab0b-d628a5d04518",
+        "organization_id": "bb1f0ffc-69d7-469a-af4b-4460271fd851"
+      },
+      {
+        "id": "dbdc47a6-32eb-460d-8fd1-ceb270c347b4",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T07:05:11.675Z",
+        "updated_at": "2023-08-28T08:23:07.716Z",
+        "franchise_id": "c9b91661-3b06-490b-82ec-43c960f948cf",
+        "organization_id": "9b8b1a09-4169-49d6-87f4-6df73ac7e37c"
+      },
+      {
+        "id": "9af69914-65d0-42ad-88b4-4881829ed00d",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-28T10:31:31.971Z",
+        "updated_at": "2023-08-28T15:56:06.515Z",
+        "franchise_id": "9dd69dc2-196d-4e74-871d-dff810829e68",
+        "organization_id": "9b8b1a09-4169-49d6-87f4-6df73ac7e37c"
+      },
+      {
+        "id": "ed343108-2d15-44cc-a3eb-b6a49b58cbfd",
+        "name": "Project Dashboard",
+        "created_at": "2023-08-28T13:12:29.728Z",
+        "updated_at": "2023-08-28T15:30:44.797Z",
+        "franchise_id": "c9b91661-3b06-490b-82ec-43c960f948cf",
+        "organization_id": "9b8b1a09-4169-49d6-87f4-6df73ac7e37c"
+      },
+      {
+        "id": "4a7f1240-d317-4c12-8c18-3830327d237b",
+        "name": "Performance Dashboard",
+        "created_at": "2023-08-28T07:11:25.325Z",
+        "updated_at": "2023-08-27T21:23:03.550Z",
+        "franchise_id": "c9b91661-3b06-490b-82ec-43c960f948cf",
+        "organization_id": "e017d9be-aac4-4b3f-a0bb-be1576a63e69"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0adf989d-244e-4c64-8686-8e7010a5ab5c",
+        "email": "Morris_Welch@hotmail.com",
+        "firstName": "Cristobal",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29145888",
+        "tenantId": null
+      },
+      {
+        "reference": "61f605ab-cd8f-4b1b-b810-4fab80ec63e2",
+        "email": "Quentin88@gmail.com",
+        "firstName": "Kaylie",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97963086",
+        "tenantId": null
+      },
+      {
+        "reference": "953c1044-fb8f-4caf-90cf-131b72eb099c",
+        "email": "Dawson.Blick@hotmail.com",
+        "firstName": "Vicenta",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13187784",
+        "tenantId": null
+      },
+      {
+        "reference": "9c9d79df-3dd8-4782-a491-e2885e19e95e",
+        "email": "Jameson55@gmail.com",
+        "firstName": "Lewis",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48ceef03-6083-42b5-9a0e-e27bbc8b17ea",
+        "email": "Chaya.Gusikowski@yahoo.com",
+        "firstName": "Rene",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/40.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "74890021-0089-4486-9a32-f50e283b43f6",
+        "name": "Organization A",
+        "address": "Address A",
+        "created_at": "2023-08-28T08:26:06.171Z",
+        "updated_at": "2023-08-28T07:32:29.469Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "225473b2-822a-4a7e-a9f7-de2eb619f1fb",
+        "name": "Organization B",
+        "address": "Address B",
+        "created_at": "2023-08-28T00:34:57.979Z",
+        "updated_at": "2023-08-28T00:15:05.553Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "ad74c215-952a-4258-839a-33c795eb12a3",
+        "name": "Organization C",
+        "address": "Address C",
+        "created_at": "2023-08-27T23:28:05.100Z",
+        "updated_at": "2023-08-28T08:42:29.209Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "aacad84f-c621-43aa-bd55-99224c2c9b38",
+        "name": "Organization D",
+        "address": "Address D",
+        "created_at": "2023-08-28T00:53:25.467Z",
+        "updated_at": "2023-08-27T23:33:03.922Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "e1ac1a16-9364-43a3-9fdf-7ae01e9b073b",
+        "name": "Organization E",
+        "address": "Address E",
+        "created_at": "2023-08-28T13:49:13.825Z",
+        "updated_at": "2023-08-28T15:58:07.098Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "ee2da7d6-d000-4252-8d31-7e0950d85050",
+        "name": "Franchise A",
+        "location": "Location A",
+        "created_at": "2023-08-27T20:57:52.129Z",
+        "updated_at": "2023-08-28T11:07:51.779Z",
+        "organization_id": "ad74c215-952a-4258-839a-33c795eb12a3"
+      },
+      {
+        "id": "cfa57298-f2d3-4dec-b964-4cd929ae47ba",
+        "name": "Franchise B",
+        "location": "Location B",
+        "created_at": "2023-08-27T18:25:16.942Z",
+        "updated_at": "2023-08-28T08:35:16.953Z",
+        "organization_id": "225473b2-822a-4a7e-a9f7-de2eb619f1fb"
+      },
+      {
+        "id": "b0286eec-05f8-4221-9f1b-6196e9991e25",
+        "name": "Franchise C",
+        "location": "Location C",
+        "created_at": "2023-08-27T19:47:04.571Z",
+        "updated_at": "2023-08-28T11:50:42.278Z",
+        "organization_id": "225473b2-822a-4a7e-a9f7-de2eb619f1fb"
+      },
+      {
+        "id": "2b82ea3a-7bff-4d71-8a5e-3335582db592",
+        "name": "Franchise D",
+        "location": "Location D",
+        "created_at": "2023-08-28T07:30:12.098Z",
+        "updated_at": "2023-08-28T01:57:59.350Z",
+        "organization_id": "aacad84f-c621-43aa-bd55-99224c2c9b38"
+      },
+      {
+        "id": "ec8a1d15-7add-4e7b-abbe-2b2d9d105522",
+        "name": "Franchise E",
+        "location": "Location E",
+        "created_at": "2023-08-28T13:15:51.732Z",
+        "updated_at": "2023-08-28T09:49:32.354Z",
+        "organization_id": "74890021-0089-4486-9a32-f50e283b43f6"
+      }
+    ],
+    "task": [
+      {
+        "id": "0fef8695-419a-44e6-9821-250e4484b25d",
+        "title": "Task A",
+        "description": "Task A description",
+        "status": "Pending",
+        "created_at": "2023-08-27T19:50:02.613Z",
+        "updated_at": "2023-08-28T13:24:54.001Z",
+        "franchise_id": "ee2da7d6-d000-4252-8d31-7e0950d85050"
+      },
+      {
+        "id": "a2bdc251-50b6-4772-a209-091abdd82cf4",
+        "title": "Task B",
+        "description": "Task B description",
+        "status": "In Progress",
+        "created_at": "2023-08-28T07:21:24.636Z",
+        "updated_at": "2023-08-28T11:51:27.997Z",
+        "franchise_id": "cfa57298-f2d3-4dec-b964-4cd929ae47ba"
+      },
+      {
+        "id": "7f555308-d0ba-4857-88d9-00031eb94113",
+        "title": "Task C",
+        "description": "Task C description",
+        "status": "Completed",
+        "created_at": "2023-08-28T15:33:43.215Z",
+        "updated_at": "2023-08-28T15:16:37.323Z",
+        "franchise_id": "ee2da7d6-d000-4252-8d31-7e0950d85050"
+      },
+      {
+        "id": "8babd4cd-2091-4d34-b9b5-5692c1837301",
+        "title": "Task D",
+        "description": "Task D description",
+        "status": "On Hold",
+        "created_at": "2023-08-28T00:45:41.969Z",
+        "updated_at": "2023-08-27T23:56:03.445Z",
+        "franchise_id": "b0286eec-05f8-4221-9f1b-6196e9991e25"
+      },
+      {
+        "id": "153ed7d1-c76c-4bba-afa6-373e07593019",
+        "title": "Task E",
+        "description": "Task E description",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T16:53:36.921Z",
+        "updated_at": "2023-08-27T23:18:17.177Z",
+        "franchise_id": "b0286eec-05f8-4221-9f1b-6196e9991e25"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "4d722709-aee1-4475-a9ff-40ad8d0110d2",
+        "name": "Dashboard A",
+        "created_at": "2023-08-28T03:39:31.760Z",
+        "updated_at": "2023-08-28T16:25:14.724Z",
+        "franchise_id": "ec8a1d15-7add-4e7b-abbe-2b2d9d105522",
+        "organization_id": "ad74c215-952a-4258-839a-33c795eb12a3"
+      },
+      {
+        "id": "71bddbbb-14de-4cc3-a2a9-1cef6c3a02e6",
+        "name": "Dashboard B",
+        "created_at": "2023-08-28T10:59:34.692Z",
+        "updated_at": "2023-08-28T14:07:15.636Z",
+        "franchise_id": "cfa57298-f2d3-4dec-b964-4cd929ae47ba",
+        "organization_id": "74890021-0089-4486-9a32-f50e283b43f6"
+      },
+      {
+        "id": "a9e8088f-8c8e-426d-ac9b-7958aacced9f",
+        "name": "Dashboard C",
+        "created_at": "2023-08-28T03:10:36.415Z",
+        "updated_at": "2023-08-28T00:37:26.736Z",
+        "franchise_id": "ee2da7d6-d000-4252-8d31-7e0950d85050",
+        "organization_id": "ad74c215-952a-4258-839a-33c795eb12a3"
+      },
+      {
+        "id": "a13d0268-dcc4-4c60-ab83-5e9ba836b9ea",
+        "name": "Dashboard D",
+        "created_at": "2023-08-28T14:07:29.368Z",
+        "updated_at": "2023-08-27T18:29:41.233Z",
+        "franchise_id": "cfa57298-f2d3-4dec-b964-4cd929ae47ba",
+        "organization_id": "225473b2-822a-4a7e-a9f7-de2eb619f1fb"
+      },
+      {
+        "id": "e6becb5f-71af-407b-adb4-6eb6f0c98b8a",
+        "name": "Dashboard E",
+        "created_at": "2023-08-28T04:47:38.955Z",
+        "updated_at": "2023-08-27T23:47:26.248Z",
+        "franchise_id": "ec8a1d15-7add-4e7b-abbe-2b2d9d105522",
+        "organization_id": "e1ac1a16-9364-43a3-9fdf-7ae01e9b073b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "11b61f1c-acbf-4d72-bb18-057b0062ff5b",
+        "email": "Rita_Lynch@yahoo.com",
+        "firstName": "Amber",
+        "lastName": "Klocko-Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/667744",
+        "tenantId": null
+      },
+      {
+        "reference": "9584a667-2bab-490e-90e3-c1acc22c0123",
+        "email": "Willie_Harris17@yahoo.com",
+        "firstName": "Flossie",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94728406",
+        "tenantId": null
+      },
+      {
+        "reference": "0a46c718-a1c4-4b14-beaa-240607331c46",
+        "email": "Remington.Jones79@gmail.com",
+        "firstName": "Aliya",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1145.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a60bc63f-d007-4187-b770-57129ece9688",
+        "email": "Shaylee83@yahoo.com",
+        "firstName": "Emil",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10466152",
+        "tenantId": null
+      },
+      {
+        "reference": "d592d81c-6644-4a00-99f1-6ffb7403b668",
+        "email": "Brown.Mraz35@yahoo.com",
+        "firstName": "Levi",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/811552",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "cf31cffa-bb90-4047-81b4-8fff88c9844b",
+        "name": "Organization A",
+        "address": "123 Main Street",
+        "created_at": "2023-08-28T15:04:04.926Z",
+        "updated_at": "2023-08-28T05:06:23.005Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "b950a458-8521-47d3-a0be-46f7d50d5b4b",
+        "name": "Organization B",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-27T20:12:02.903Z",
+        "updated_at": "2023-08-28T10:58:17.890Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "43eb3564-610c-4abd-9c1e-38cca07578c2",
+        "name": "Organization C",
+        "address": "789 Oak Drive",
+        "created_at": "2023-08-28T07:36:53.109Z",
+        "updated_at": "2023-08-27T23:37:27.694Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "e53e2a53-8923-4d85-a34f-204f7bbb5992",
+        "name": "Organization D",
+        "address": "321 Pine Lane",
+        "created_at": "2023-08-28T14:55:48.104Z",
+        "updated_at": "2023-08-28T03:22:07.987Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "9975aca6-adb2-41f2-a956-98adbed20142",
+        "name": "Organization E",
+        "address": "654 Maple Road",
+        "created_at": "2023-08-28T07:25:16.559Z",
+        "updated_at": "2023-08-28T02:54:23.159Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "37c82f40-fd8c-4c80-b164-1aa977744098",
+        "name": "Franchise A",
+        "location": "New York",
+        "created_at": "2023-08-27T20:25:54.158Z",
+        "updated_at": "2023-08-28T03:54:23.603Z",
+        "organization_id": "e53e2a53-8923-4d85-a34f-204f7bbb5992"
+      },
+      {
+        "id": "aa1e2bd9-7381-4c46-9fe6-5ca63265b48d",
+        "name": "Franchise B",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T06:46:44.061Z",
+        "updated_at": "2023-08-27T23:36:32.406Z",
+        "organization_id": "43eb3564-610c-4abd-9c1e-38cca07578c2"
+      },
+      {
+        "id": "92e52834-032c-4a13-a9fb-fd7377575437",
+        "name": "Franchise C",
+        "location": "Chicago",
+        "created_at": "2023-08-28T17:11:55.560Z",
+        "updated_at": "2023-08-28T16:32:52.220Z",
+        "organization_id": "e53e2a53-8923-4d85-a34f-204f7bbb5992"
+      },
+      {
+        "id": "e6906a00-49ed-4f97-a9d3-e9e989d50350",
+        "name": "Franchise D",
+        "location": "Houston",
+        "created_at": "2023-08-27T23:13:50.634Z",
+        "updated_at": "2023-08-28T15:02:43.092Z",
+        "organization_id": "43eb3564-610c-4abd-9c1e-38cca07578c2"
+      },
+      {
+        "id": "5c8352e8-b03d-429e-9881-5eeba68d526c",
+        "name": "Franchise E",
+        "location": "Miami",
+        "created_at": "2023-08-27T17:54:45.541Z",
+        "updated_at": "2023-08-28T17:25:20.185Z",
+        "organization_id": "9975aca6-adb2-41f2-a956-98adbed20142"
+      }
+    ],
+    "task": [
+      {
+        "id": "0198be29-636b-426c-8527-42326467318d",
+        "title": "Task 1",
+        "description": "This is task 1",
+        "status": "Pending",
+        "created_at": "2023-08-28T02:13:12.162Z",
+        "updated_at": "2023-08-28T08:56:21.696Z",
+        "franchise_id": "5c8352e8-b03d-429e-9881-5eeba68d526c"
+      },
+      {
+        "id": "a7a11a8a-9506-41c8-88fd-338d3fc79913",
+        "title": "Task 2",
+        "description": "This is task 2",
+        "status": "In Progress",
+        "created_at": "2023-08-27T18:20:01.056Z",
+        "updated_at": "2023-08-28T06:27:34.407Z",
+        "franchise_id": "37c82f40-fd8c-4c80-b164-1aa977744098"
+      },
+      {
+        "id": "b6a32c15-358b-4134-86f4-2243d59b7762",
+        "title": "Task 3",
+        "description": "This is task 3",
+        "status": "Completed",
+        "created_at": "2023-08-27T20:10:34.338Z",
+        "updated_at": "2023-08-28T04:33:32.357Z",
+        "franchise_id": "92e52834-032c-4a13-a9fb-fd7377575437"
+      },
+      {
+        "id": "136887ee-fd82-4d48-b9bf-3ea1ba6ee366",
+        "title": "Task 4",
+        "description": "This is task 4",
+        "status": "On Hold",
+        "created_at": "2023-08-28T13:08:28.080Z",
+        "updated_at": "2023-08-27T20:44:32.703Z",
+        "franchise_id": "e6906a00-49ed-4f97-a9d3-e9e989d50350"
+      },
+      {
+        "id": "d936b750-71e8-4195-90d3-87a6fd5480b6",
+        "title": "Task 5",
+        "description": "This is task 5",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T16:27:43.215Z",
+        "updated_at": "2023-08-28T10:16:52.765Z",
+        "franchise_id": "37c82f40-fd8c-4c80-b164-1aa977744098"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "a169bacc-52af-492f-a394-4bdaaa31e80d",
+        "name": "Dashboard A",
+        "created_at": "2023-08-28T15:56:11.789Z",
+        "updated_at": "2023-08-27T18:09:38.637Z",
+        "franchise_id": "37c82f40-fd8c-4c80-b164-1aa977744098",
+        "organization_id": "9975aca6-adb2-41f2-a956-98adbed20142"
+      },
+      {
+        "id": "1f8b2579-e7fc-4b08-823c-c241f39daeff",
+        "name": "Dashboard B",
+        "created_at": "2023-08-28T09:38:37.956Z",
+        "updated_at": "2023-08-27T23:36:25.894Z",
+        "franchise_id": "aa1e2bd9-7381-4c46-9fe6-5ca63265b48d",
+        "organization_id": "43eb3564-610c-4abd-9c1e-38cca07578c2"
+      },
+      {
+        "id": "6c91cc69-3552-4bf7-a91d-7925c899cced",
+        "name": "Dashboard C",
+        "created_at": "2023-08-27T21:15:26.061Z",
+        "updated_at": "2023-08-28T01:54:30.142Z",
+        "franchise_id": "e6906a00-49ed-4f97-a9d3-e9e989d50350",
+        "organization_id": "b950a458-8521-47d3-a0be-46f7d50d5b4b"
+      },
+      {
+        "id": "3c3f8e2b-4372-420a-bd8d-18eb3bc5b764",
+        "name": "Dashboard D",
+        "created_at": "2023-08-27T18:58:53.725Z",
+        "updated_at": "2023-08-28T14:24:33.289Z",
+        "franchise_id": "e6906a00-49ed-4f97-a9d3-e9e989d50350",
+        "organization_id": "9975aca6-adb2-41f2-a956-98adbed20142"
+      },
+      {
+        "id": "d7b109fb-c233-499a-b5c3-bb04d6761467",
+        "name": "Dashboard E",
+        "created_at": "2023-08-28T13:58:30.542Z",
+        "updated_at": "2023-08-28T07:10:50.946Z",
+        "franchise_id": "aa1e2bd9-7381-4c46-9fe6-5ca63265b48d",
+        "organization_id": "cf31cffa-bb90-4047-81b4-8fff88c9844b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6e670749-5959-42e1-a45d-23e79c9e971a",
+        "email": "Antwon.Hahn-Stoltenberg@yahoo.com",
+        "firstName": "Trace",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71889194",
+        "tenantId": null
+      },
+      {
+        "reference": "b1de9f03-8abf-4bfb-8d67-1e0e299840f9",
+        "email": "Hallie78@gmail.com",
+        "firstName": "Kristy",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42893820",
+        "tenantId": null
+      },
+      {
+        "reference": "d6741051-8523-43c0-a186-9913a80e5b12",
+        "email": "Larry.Barton14@gmail.com",
+        "firstName": "Sadie",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6699685",
+        "tenantId": null
+      },
+      {
+        "reference": "442c2e2a-c55e-4d90-977a-65ef2ba93473",
+        "email": "Loma3@hotmail.com",
+        "firstName": "Itzel",
+        "lastName": "Mante-Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d187c0ab-f5ad-4d3a-a0aa-561e5e7ea979",
+        "email": "Gilda.Cassin17@yahoo.com",
+        "firstName": "Marco",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19005384",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "97a28e98-26f8-477b-801f-927d74837021",
+        "name": "Acme Corporation",
+        "address": "123 Main Street",
+        "created_at": "2023-08-27T20:16:31.765Z",
+        "updated_at": "2023-08-28T17:19:11.170Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "606d4a89-300f-48da-97d8-94ab5ee00f7f",
+        "name": "Global Enterprises",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-28T05:02:30.389Z",
+        "updated_at": "2023-08-28T07:46:24.969Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "9c4b29fe-2e35-46d5-bc3f-f81831e724f8",
+        "name": "Sunrise Industries",
+        "address": "789 Oak Drive",
+        "created_at": "2023-08-27T19:39:11.968Z",
+        "updated_at": "2023-08-28T04:00:16.996Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "bbce16ba-85bf-4ef5-986a-864c84191028",
+        "name": "Peak Performance",
+        "address": "321 Pine Lane",
+        "created_at": "2023-08-28T13:19:29.759Z",
+        "updated_at": "2023-08-27T23:36:07.047Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "33ddbea7-73e5-458e-be86-d42516951bbf",
+        "name": "United Services",
+        "address": "987 Maple Road",
+        "created_at": "2023-08-28T14:43:03.584Z",
+        "updated_at": "2023-08-28T12:42:26.680Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "1466212d-7b65-451d-8c4c-d4722f36a828",
+        "name": "Fast Food Franchise",
+        "location": "New York",
+        "created_at": "2023-08-28T03:07:51.509Z",
+        "updated_at": "2023-08-28T12:50:59.150Z",
+        "organization_id": "97a28e98-26f8-477b-801f-927d74837021"
+      },
+      {
+        "id": "2a1f8ca4-b9fc-4089-a993-a50fed0f1438",
+        "name": "Retail Franchise",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T01:31:26.736Z",
+        "updated_at": "2023-08-27T18:48:58.440Z",
+        "organization_id": "33ddbea7-73e5-458e-be86-d42516951bbf"
+      },
+      {
+        "id": "f917258c-fe0f-4518-b203-e0ca6b217ecc",
+        "name": "Fitness Franchise",
+        "location": "Chicago",
+        "created_at": "2023-08-27T23:18:55.957Z",
+        "updated_at": "2023-08-28T13:56:10.103Z",
+        "organization_id": "bbce16ba-85bf-4ef5-986a-864c84191028"
+      },
+      {
+        "id": "d6d80c55-e28d-42c7-a0bd-cece5c27575c",
+        "name": "Healthcare Franchise",
+        "location": "Houston",
+        "created_at": "2023-08-28T10:30:57.257Z",
+        "updated_at": "2023-08-27T22:56:38.260Z",
+        "organization_id": "97a28e98-26f8-477b-801f-927d74837021"
+      },
+      {
+        "id": "5aa9431b-2b62-4f81-ad24-d1927cf730d2",
+        "name": "Education Franchise",
+        "location": "Miami",
+        "created_at": "2023-08-28T07:02:46.203Z",
+        "updated_at": "2023-08-27T23:45:54.786Z",
+        "organization_id": "606d4a89-300f-48da-97d8-94ab5ee00f7f"
+      }
+    ],
+    "task": [
+      {
+        "id": "069de3b3-6126-471c-85e1-63b54ff285e1",
+        "title": "Complete project report",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-28T16:19:07.373Z",
+        "updated_at": "2023-08-28T01:54:40.044Z",
+        "franchise_id": "f917258c-fe0f-4518-b203-e0ca6b217ecc"
+      },
+      {
+        "id": "ea8150a2-242d-4a4d-9d8b-059f2e469a62",
+        "title": "Prepare presentation",
+        "description": "Consectetur adipiscing elit",
+        "status": "In Progress",
+        "created_at": "2023-08-28T09:12:32.836Z",
+        "updated_at": "2023-08-28T10:28:56.464Z",
+        "franchise_id": "5aa9431b-2b62-4f81-ad24-d1927cf730d2"
+      },
+      {
+        "id": "4ee70006-5d70-4290-b02c-970ba4e078c2",
+        "title": "Review marketing strategy",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-27T19:20:04.949Z",
+        "updated_at": "2023-08-28T06:45:06.620Z",
+        "franchise_id": "2a1f8ca4-b9fc-4089-a993-a50fed0f1438"
+      },
+      {
+        "id": "273654bd-e978-458e-aee1-e03467f74e59",
+        "title": "Update website content",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On Hold",
+        "created_at": "2023-08-28T12:24:53.769Z",
+        "updated_at": "2023-08-28T04:36:38.086Z",
+        "franchise_id": "f917258c-fe0f-4518-b203-e0ca6b217ecc"
+      },
+      {
+        "id": "a5b149ad-c010-468b-a2fe-498289b2d635",
+        "title": "Organize team meeting",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T03:42:40.870Z",
+        "updated_at": "2023-08-27T21:41:05.215Z",
+        "franchise_id": "f917258c-fe0f-4518-b203-e0ca6b217ecc"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "ac850728-67d7-4ee3-8bf7-189487be96fc",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T07:42:18.986Z",
+        "updated_at": "2023-08-28T10:23:37.680Z",
+        "franchise_id": "f917258c-fe0f-4518-b203-e0ca6b217ecc",
+        "organization_id": "33ddbea7-73e5-458e-be86-d42516951bbf"
+      },
+      {
+        "id": "f7f7a9d2-d247-453e-9e94-14e0719feb4f",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T01:12:28.598Z",
+        "updated_at": "2023-08-28T16:23:11.558Z",
+        "franchise_id": "d6d80c55-e28d-42c7-a0bd-cece5c27575c",
+        "organization_id": "bbce16ba-85bf-4ef5-986a-864c84191028"
+      },
+      {
+        "id": "635e7f73-2eb9-4438-b749-a64071f36b87",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-28T07:00:20.059Z",
+        "updated_at": "2023-08-28T04:36:25.032Z",
+        "franchise_id": "1466212d-7b65-451d-8c4c-d4722f36a828",
+        "organization_id": "33ddbea7-73e5-458e-be86-d42516951bbf"
+      },
+      {
+        "id": "db69dc32-58ef-4ebd-a503-024b0c557785",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-27T18:26:09.735Z",
+        "updated_at": "2023-08-27T22:34:24.831Z",
+        "franchise_id": "5aa9431b-2b62-4f81-ad24-d1927cf730d2",
+        "organization_id": "33ddbea7-73e5-458e-be86-d42516951bbf"
+      },
+      {
+        "id": "56244957-f295-46ce-a9d7-8d5dbd62dac3",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T09:37:10.444Z",
+        "updated_at": "2023-08-28T02:52:10.041Z",
+        "franchise_id": "5aa9431b-2b62-4f81-ad24-d1927cf730d2",
+        "organization_id": "9c4b29fe-2e35-46d5-bc3f-f81831e724f8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac910765-3c34-4ccd-a229-350bd7f0a36a",
+        "email": "Luna_Kunze@gmail.com",
+        "firstName": "Bette",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20241071",
+        "tenantId": null
+      },
+      {
+        "reference": "70d2ddfe-6600-4c2d-b443-bd467641e274",
+        "email": "Elizabeth_Kuhlman@hotmail.com",
+        "firstName": "Selena",
+        "lastName": "Stokes-Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/306.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e28dece8-88a2-43ae-ac0e-8c3005cb8ff3",
+        "email": "Trevor_Zemlak77@hotmail.com",
+        "firstName": "Damaris",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36721830",
+        "tenantId": null
+      },
+      {
+        "reference": "e27cd871-acdf-4a17-a902-90d5548a1be6",
+        "email": "Leila44@gmail.com",
+        "firstName": "Brenna",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73847730",
+        "tenantId": null
+      },
+      {
+        "reference": "b7e3c5f3-7003-4715-b36a-22c7f4d19882",
+        "email": "Eliezer.Smith49@hotmail.com",
+        "firstName": "Esta",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47275169",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "organization": [
+      {
+        "id": "601fb1a8-f511-431c-b6ae-3b95c1004726",
+        "name": "ABC Inc.",
+        "address": "123 Main St",
+        "created_at": "2023-08-28T04:31:49.142Z",
+        "updated_at": "2023-08-27T19:58:01.597Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "3206deef-2d0d-443a-be63-8cf8a85f0435",
+        "name": "XYZ Corp.",
+        "address": "456 Elm St",
+        "created_at": "2023-08-28T11:33:09.344Z",
+        "updated_at": "2023-08-28T00:35:23.262Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "a9165302-166b-4684-a30d-d13ab63b6190",
+        "name": "123 Company",
+        "address": "789 Oak Ave",
+        "created_at": "2023-08-28T01:05:40.884Z",
+        "updated_at": "2023-08-27T23:33:30.686Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "5c4aaee8-cd0e-473e-b512-8be7df7a7f7b",
+        "name": "Acme Ltd.",
+        "address": "321 Maple Dr",
+        "created_at": "2023-08-28T16:39:53.428Z",
+        "updated_at": "2023-08-28T12:34:49.560Z",
+        "client_id": "main_entity_pk"
+      },
+      {
+        "id": "dec5e83c-18bd-47a7-86f6-960824ebc475",
+        "name": "Global Organization",
+        "address": "987 Pine Ln",
+        "created_at": "2023-08-27T21:03:43.864Z",
+        "updated_at": "2023-08-28T13:57:26.097Z",
+        "client_id": "main_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "b096f35d-abe1-4a6d-948c-ed726a1b917f",
+        "name": "Subway",
+        "location": "New York",
+        "created_at": "2023-08-28T00:04:59.532Z",
+        "updated_at": "2023-08-27T17:57:47.376Z",
+        "organization_id": "dec5e83c-18bd-47a7-86f6-960824ebc475"
+      },
+      {
+        "id": "2b801cf6-6dc7-4006-bbb7-6b6c5cdadfdf",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T06:20:17.952Z",
+        "updated_at": "2023-08-27T20:32:57.914Z",
+        "organization_id": "a9165302-166b-4684-a30d-d13ab63b6190"
+      },
+      {
+        "id": "9a635971-d521-45fb-9933-3f2d19bccd6f",
+        "name": "Starbucks",
+        "location": "Chicago",
+        "created_at": "2023-08-28T04:56:57.040Z",
+        "updated_at": "2023-08-28T00:40:04.800Z",
+        "organization_id": "dec5e83c-18bd-47a7-86f6-960824ebc475"
+      },
+      {
+        "id": "ad8af1a7-e274-418b-b20a-813d6564900c",
+        "name": "Burger King",
+        "location": "Houston",
+        "created_at": "2023-08-28T08:31:15.460Z",
+        "updated_at": "2023-08-28T02:16:37.324Z",
+        "organization_id": "5c4aaee8-cd0e-473e-b512-8be7df7a7f7b"
+      },
+      {
+        "id": "4a54046a-50e5-4307-aad4-076197682267",
+        "name": "Pizza Hut",
+        "location": "Miami",
+        "created_at": "2023-08-28T05:01:57.134Z",
+        "updated_at": "2023-08-28T02:20:57.585Z",
+        "organization_id": "3206deef-2d0d-443a-be63-8cf8a85f0435"
+      }
+    ],
+    "task": [
+      {
+        "id": "3b2961c2-319a-4156-be58-25b05cb614e6",
+        "title": "Task 1",
+        "description": "Complete project report",
+        "status": "Pending",
+        "created_at": "2023-08-28T08:09:57.073Z",
+        "updated_at": "2023-08-28T15:22:06.419Z",
+        "franchise_id": "b096f35d-abe1-4a6d-948c-ed726a1b917f"
+      },
+      {
+        "id": "a5029545-f211-40d5-9ac3-2a781769deab",
+        "title": "Task 2",
+        "description": "Fix bug in software",
+        "status": "In Progress",
+        "created_at": "2023-08-28T15:38:56.519Z",
+        "updated_at": "2023-08-28T07:09:37.375Z",
+        "franchise_id": "2b801cf6-6dc7-4006-bbb7-6b6c5cdadfdf"
+      },
+      {
+        "id": "11d3f844-5453-4705-b71b-8a6b0f5887ef",
+        "title": "Task 3",
+        "description": "Prepare presentation slides",
+        "status": "Completed",
+        "created_at": "2023-08-28T07:17:41.100Z",
+        "updated_at": "2023-08-28T10:43:28.928Z",
+        "franchise_id": "9a635971-d521-45fb-9933-3f2d19bccd6f"
+      },
+      {
+        "id": "8dea9469-e4ab-4797-b6ff-f459fbff4141",
+        "title": "Task 4",
+        "description": "Conduct market research",
+        "status": "On Hold",
+        "created_at": "2023-08-28T10:09:27.264Z",
+        "updated_at": "2023-08-28T02:03:19.828Z",
+        "franchise_id": "ad8af1a7-e274-418b-b20a-813d6564900c"
+      },
+      {
+        "id": "b8131c8e-b52b-45ab-b939-4c9ff3a50473",
+        "title": "Task 5",
+        "description": "Create marketing campaign",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T18:20:32.150Z",
+        "updated_at": "2023-08-28T12:58:42.325Z",
+        "franchise_id": "4a54046a-50e5-4307-aad4-076197682267"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "295c75c8-d6c4-4daa-9575-ffea62fb9d90",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T15:17:55.587Z",
+        "updated_at": "2023-08-27T18:14:31.247Z",
+        "franchise_id": "b096f35d-abe1-4a6d-948c-ed726a1b917f",
+        "organization_id": "5c4aaee8-cd0e-473e-b512-8be7df7a7f7b"
+      },
+      {
+        "id": "098b5de4-8f4a-443c-99da-3e240fea5955",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-27T22:00:38.449Z",
+        "updated_at": "2023-08-28T12:22:13.325Z",
+        "franchise_id": "4a54046a-50e5-4307-aad4-076197682267",
+        "organization_id": "dec5e83c-18bd-47a7-86f6-960824ebc475"
+      },
+      {
+        "id": "eee83043-7ce1-435c-81af-0d1d9638074d",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-27T20:41:50.376Z",
+        "updated_at": "2023-08-28T17:45:36.905Z",
+        "franchise_id": "9a635971-d521-45fb-9933-3f2d19bccd6f",
+        "organization_id": "dec5e83c-18bd-47a7-86f6-960824ebc475"
+      },
+      {
+        "id": "24124a27-aae9-4aa2-bc11-a3e9b966c8cc",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T05:38:00.633Z",
+        "updated_at": "2023-08-28T16:45:08.589Z",
+        "franchise_id": "ad8af1a7-e274-418b-b20a-813d6564900c",
+        "organization_id": "dec5e83c-18bd-47a7-86f6-960824ebc475"
+      },
+      {
+        "id": "f4789c13-e3f7-4d32-8287-d9f9cb03157d",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-27T18:46:16.707Z",
+        "updated_at": "2023-08-28T01:06:25.615Z",
+        "franchise_id": "2b801cf6-6dc7-4006-bbb7-6b6c5cdadfdf",
+        "organization_id": "5c4aaee8-cd0e-473e-b512-8be7df7a7f7b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8708e593-abd9-4245-a9d8-cde4539490aa",
+        "email": "Curt37@hotmail.com",
+        "firstName": "Luciano",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48963117",
+        "tenantId": null
+      },
+      {
+        "reference": "d7f69951-4ff6-463f-9239-309b1287b8e9",
+        "email": "Alessia72@gmail.com",
+        "firstName": "Gilbert",
+        "lastName": "Doyle-Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/596.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cbd76a1d-3f5d-4e49-be3e-84efc709617b",
+        "email": "Steve_Turner98@yahoo.com",
+        "firstName": "Orrin",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82486643",
+        "tenantId": null
+      },
+      {
+        "reference": "2622866c-447e-4f74-8317-3efb4e55d4ae",
+        "email": "Houston_Rowe@yahoo.com",
+        "firstName": "Orville",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/826.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11c42399-2559-4b97-8404-1938198e5ecb",
+        "email": "Emilio.VonRueden97@yahoo.com",
+        "firstName": "Kaleb",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
